@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "test-pipeline-rg"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "dnsPrefix": {
+            "value": "vsc"
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "agentCount": {
+            "value": 2
+        },
+        "agentVMSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "osType": {
+            "value": "Linux"
+        },
+        "kubernetesVersion": {
+            "value": "1.13.11"
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "maxPods": {
+            "value": 30
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "vmssNodePool": {
+            "value": true
+        },
+        "windowsProfile": {
+            "value": false
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "enableOmsAgent": {
+            "value": true
+        },
+        "workspaceRegion": {
+            "value": "westeurope"
+        },
+        "workspaceName": {
+            "value": "DefaultWorkspace-9ec0e7ae-1566-412f-8f13-939bb53e7bb5-WEU"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/9ec0e7ae-1566-412f-8f13-939bb53e7bb5/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-9ec0e7ae-1566-412f-8f13-939bb53e7bb5-WEU"
+        },
+        "omsSku": {
+            "value": "standalone"
+        },
+        "principalId": {
+            "value": "27209bc2-3772-4be8-9306-45f966a9f5f3"
+        }
+    }
+}
